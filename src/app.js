@@ -22,7 +22,7 @@ app.use(express.static(publicDirectoryPath))
 //rout handler
 app.get('', (req, res) => {
     res.render("index", {
-        title: "weather",
+        title: "Weather",
         name: "MD"
     })
 })
